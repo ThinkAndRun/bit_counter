@@ -1,7 +1,7 @@
 require 'file_stats'
 
 RSpec.describe FileStats do
-  let(:test_file) { 'ruby.jpg' }
+  let(:test_file) { 'spec/fixtures/files/ruby.jpg' }
   let(:stats) { FileStats.new(test_file) }
 
   context '#new' do
